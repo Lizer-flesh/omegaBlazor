@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koshe\\Downloads\\Landing\\Server\\Landing.Server.csproj": {}
+    "C:\\Users\\koshe\\Documents\\Landing\\Server\\Landing.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj": {
+    "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj",
+        "projectUniqueName": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj",
         "projectName": "Landing.Client",
-        "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj",
+        "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj",
         "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\obj\\",
+        "outputPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj": {
-                "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj"
+              "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj": {
+                "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj"
               }
             }
           }
@@ -76,6 +76,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -108,14 +112,14 @@
         }
       }
     },
-    "C:\\Users\\koshe\\Downloads\\Landing\\Server\\Landing.Server.csproj": {
+    "C:\\Users\\koshe\\Documents\\Landing\\Server\\Landing.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koshe\\Downloads\\Landing\\Server\\Landing.Server.csproj",
+        "projectUniqueName": "C:\\Users\\koshe\\Documents\\Landing\\Server\\Landing.Server.csproj",
         "projectName": "Landing.Server",
-        "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Server\\Landing.Server.csproj",
+        "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Server\\Landing.Server.csproj",
         "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koshe\\Downloads\\Landing\\Server\\obj\\",
+        "outputPath": "C:\\Users\\koshe\\Documents\\Landing\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,11 +136,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj": {
-                "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj"
+              "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj": {
+                "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj"
               },
-              "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj": {
-                "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj"
+              "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj": {
+                "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj"
               }
             }
           }
@@ -178,6 +182,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -202,14 +210,14 @@
         }
       }
     },
-    "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj": {
+    "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj",
         "projectName": "Landing.Shared",
-        "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj",
+        "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj",
         "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -261,6 +269,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

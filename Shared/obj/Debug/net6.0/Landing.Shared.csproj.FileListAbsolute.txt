@@ -26,3 +26,17 @@ C:\Users\koshe\Downloads\Landing\Shared\obj\Debug\net6.0\refint\Landing.Shared.d
 C:\Users\koshe\Downloads\Landing\Shared\obj\Debug\net6.0\Landing.Shared.pdb
 C:\Users\koshe\Downloads\Landing\Shared\obj\Debug\net6.0\Landing.Shared.genruntimeconfig.cache
 C:\Users\koshe\Downloads\Landing\Shared\obj\Debug\net6.0\ref\Landing.Shared.dll
+C:\Users\koshe\Documents\Landing\Shared\bin\Debug\net6.0\Landing.Shared.deps.json
+C:\Users\koshe\Documents\Landing\Shared\bin\Debug\net6.0\Landing.Shared.runtimeconfig.json
+C:\Users\koshe\Documents\Landing\Shared\bin\Debug\net6.0\Landing.Shared.dll
+C:\Users\koshe\Documents\Landing\Shared\bin\Debug\net6.0\Landing.Shared.pdb
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.csproj.AssemblyReference.cache
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.AssemblyInfoInputs.cache
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.AssemblyInfo.cs
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.csproj.CoreCompileInputs.cache
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.dll
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\refint\Landing.Shared.dll
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.pdb
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\Landing.Shared.genruntimeconfig.cache
+C:\Users\koshe\Documents\Landing\Shared\obj\Debug\net6.0\ref\Landing.Shared.dll

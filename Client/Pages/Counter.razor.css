@@ -32,3 +32,13 @@
     flex: none !important;
     /*border-left: 1px solid rgba(0, 0, 0, .08) !important;*/
 }
+
+/*.null {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ffae00;
+    padding: 0 8px;
+    border-radius: 80px;
+    margin-left: 90%;
+}*/

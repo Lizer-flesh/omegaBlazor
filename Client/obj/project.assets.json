@@ -1258,6 +1258,21 @@
           }
         }
       },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Net.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1922,7 +1937,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.7",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
+          "System.Net.Http.Json": "6.0.0"
         },
         "compile": {
           "bin/placeholder/Landing.Shared.dll": {}
@@ -3248,6 +3264,21 @@
           "ref/netstandard1.3/System.Net.Http.dll": {}
         }
       },
+      "System.Net.Http.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Net.Http.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Net.Http.Json.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Net.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3857,7 +3888,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.7",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
+          "System.Net.Http.Json": "6.0.0"
         },
         "compile": {
           "bin/placeholder/Landing.Shared.dll": {}
@@ -6978,6 +7010,31 @@
         "system.net.http.nuspec"
       ]
     },
+    "System.Net.Http.Json/6.0.0": {
+      "sha512": "GbIV4y344kGOKjshAKCIDCMUTTW/hyUC42wV0Y5SXEdIbaKBIHBUxZ2MOe4/ZiV2svUAGfQ0c8LGtUExpOI8tg==",
+      "type": "package",
+      "path": "system.net.http.json/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Net.Http.Json.dll",
+        "lib/net461/System.Net.Http.Json.xml",
+        "lib/net5.0/System.Net.Http.Json.dll",
+        "lib/net5.0/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net6.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.6.0.0.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Net.Primitives/4.3.0": {
       "sha512": "qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
       "type": "package",
@@ -8983,7 +9040,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Proxies >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.5"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.5",
+      "System.Net.Http.Json >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -8992,11 +9050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj",
+      "projectUniqueName": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj",
       "projectName": "Landing.Client",
-      "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\Landing.Client.csproj",
+      "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj",
       "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koshe\\Downloads\\Landing\\Client\\obj\\",
+      "outputPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9013,8 +9071,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj": {
-              "projectPath": "C:\\Users\\koshe\\Downloads\\Landing\\Shared\\Landing.Shared.csproj"
+            "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj": {
+              "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj"
             }
           }
         }
@@ -9061,6 +9119,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[6.0.5, )"
+          },
+          "System.Net.Http.Json": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [

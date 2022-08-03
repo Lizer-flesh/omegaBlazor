@@ -1,4 +1,8 @@
 ﻿@page "/"
+@using Landing.Client.Shared.Models
+@inject HttpClient Http
+@using Landing.Server.Models
+@using Microsoft.AspNetCore.Components.Web
 @inject NavigationManager NavigationManager
 
 <PageTitle>Index</PageTitle>
@@ -9,25 +13,36 @@
 <div class="entrance">
     <div class="login">
         <h4>Введите login</h4>
-        <input type="email"/>
+        <input  type="email" @bind="@login"/>
     </div>
     <div class="password">
+        
         <h4>Введите пароль</h4>
-        <input type="password"/>
+        <input type="password" @bind="@password"/>
     </div>
-    <h3><button @onclick="click">Войти</button></h3>
+    <h3><button id="EntranceBut" @onclick="click">Войти</button></h3>
 </div>
 
 
 @code{
+        [Parameter]
+        public string login { get; set; }
+    public string password { get; set; }
+    protected Users user = new Users();
+    private ApplicationContext applicationContext = new ApplicationContext;
 
     void click()
     {
-        NavigationManager.NavigateTo("counter");
+        logintable = applicationContext.Users.Where(u => u.logintable == user.login).FirstOrDefault();
+        if (login=logintable)
+        {
+            if (password == applicationContext.Users.Where(u=>u.login==login)
+            {
+                NavigationManager.NavigateTo("counter");
+            }
+        }
+       
     }
 
-    private void ExitButton()
-    {
-        
-    }
+    
 }

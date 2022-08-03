@@ -1,9 +1,7 @@
 using Landing.Server;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
-using Landing;
-
-
+using Landing.Server.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +12,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 
