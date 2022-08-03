@@ -1,0 +1,22 @@
+﻿.card {
+    flex: none !important;
+    /*display: flex !important;*/
+    justify-content: space-around !important;
+    margin-right: 90px !important;
+    margin-left: 55px !important;
+    border: 0px solid !important;
+    margin-top: 60px;
+}
+
+.card-img-top {
+    border-radius: 100% !important;
+}
+
+.card-body {
+    border: 1px solid rgba(0, 0, 0, .08) !important;
+    margin-top: 13px !important;
+}
+
+.title {
+    font-size:30px !important;
+}

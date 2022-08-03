@@ -1,0 +1,33 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Index</PageTitle>
+
+
+<h1>Вход</h1>
+
+<div class="entrance">
+    <div class="login">
+        <h4>Введите login</h4>
+        <input type="email"/>
+    </div>
+    <div class="password">
+        <h4>Введите пароль</h4>
+        <input type="password"/>
+    </div>
+    <h3><button @onclick="click">Войти</button></h3>
+</div>
+
+
+@code{
+
+    void click()
+    {
+        NavigationManager.NavigateTo("counter");
+    }
+
+    private void ExitButton()
+    {
+        
+    }
+}

@@ -1,0 +1,34 @@
+﻿.button_cart {
+    margin-left: 85%;
+    margin-right: 8%;
+    border: solid 1px #ffae00;
+}
+
+.button_cart:hover {
+    background: #ffae00;
+}
+
+.card-group {
+    flex: none !important;
+    /*display:flex !important;*/
+    justify-content: space-around !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.but_card {
+    border: solid 1px #ffae00;
+}
+
+.but_card:hover {
+   background: #ffae00;
+}
+
+.card {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 8px solid #ffae00 !important;
+    flex: none !important;
+    /*border-left: 1px solid rgba(0, 0, 0, .08) !important;*/
+}
