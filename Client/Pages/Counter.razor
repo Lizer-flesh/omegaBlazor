@@ -1,68 +1,80 @@
 ﻿@page "/counter"
+@using Microsoft.AspNetCore.Authorization
+@using Landing.Client.Pages
 @inject NavigationManager NavigationManager
 
-<PageTitle>Products</PageTitle>
+@if (for_pages)
+{
+    <PageTitle>Products</PageTitle>
 
-<h1>Товары<h3><button class="button_cart" @onclick="cart">Корзина</button></h3></h1>  
+    <h1>Товары<h3><button class="button_cart" @onclick="cart">Корзина</button></h3></h1>  
 
-<h2><p role="status">Товаров в корзине: @allcurrentCount</p></h2>
+    <h2><p role="status">Товаров в корзине: @allcurrentCount</p></h2>
 
 
 
-<div class="card-group">
-  <div class="card"> 
-     <div class="null">
-        <span>@currentCount1</span>
-     </div>
-    <img class="card-img-top" src="/images/images.png">
-    <div class="card-body">
-      <h5 class="card-title">Познавайка</h5>
-      <h6>Цена: 100 000 руб.</h6>
-      <div>
-        <button class="but_card" @onclick="IncrementCount1">Добавить в корзину</button>
-        <button class="but_card" @onclick="Delete1">Удалить</button>
+    <div class="card-group">
+      <div class="card"> 
+         <div class="null">
+            <span>@currentCount1</span>
+         </div>
+        <img class="card-img-top" src="/images/images.png">
+        <div class="card-body">
+          <h5 class="card-title">Познавайка</h5>
+          <h6>Цена: 100 000 руб.</h6>
+          <div>
+            <button class="but_card" @onclick="IncrementCount1">Добавить в корзину</button>
+            <button class="but_card" @onclick="Delete1">Удалить</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+          <div class="null">
+            <span>@currentCount2</span>
+         </div>
+        <img class="card-img-top" src="/images/images.png">
+        <div class="card-body">
+          <h5 class="card-title">Виртуальная реальность</h5>
+          <h6>Цена: 100 000 руб.</h6>
+           <div>
+            <button class="but_card" @onclick="IncrementCount2">Добавить в корзину</button>
+            <button class="but_card" @onclick="Delete2">Удалить</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+          <div class="null">
+            <span>@currentCount3</span>
+         </div>
+        <img class="card-img-top" src="/images/images.png">
+        <div class="card-body">
+          <h5 class="card-title">Systema</h5>
+          <h6>Цена: 100 000 руб.</h6>
+            <div>
+             <button class="but_card" @onclick="IncrementCount3">Добавить в корзину</button>
+             <button class="but_card" @onclick="Delete3">Удалить</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card">
-      <div class="null">
-        <span>@currentCount2</span>
-     </div>
-    <img class="card-img-top" src="/images/images.png">
-    <div class="card-body">
-      <h5 class="card-title">Виртуальная реальность</h5>
-      <h6>Цена: 100 000 руб.</h6>
-       <div>
-        <button class="but_card" @onclick="IncrementCount2">Добавить в корзину</button>
-        <button class="but_card" @onclick="Delete2">Удалить</button>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-      <div class="null">
-        <span>@currentCount3</span>
-     </div>
-    <img class="card-img-top" src="/images/images.png">
-    <div class="card-body">
-      <h5 class="card-title">Systema</h5>
-      <h6>Цена: 100 000 руб.</h6>
-        <div>
-         <button class="but_card" @onclick="IncrementCount3">Добавить в корзину</button>
-         <button class="but_card" @onclick="Delete3">Удалить</button>
-      </div>
-    </div>
-  </div>
-</div>
+}
+else
+{
+    <h3>Авторизируйтесь</h3>
+}
+
 
 @code {
+    bool for_pages = Pages.Index.for_pages;
+
     void cart()
     {
         NavigationManager.NavigateTo("fetchdata");
     }
-    private int currentCount1 = 0;
-    private int currentCount2 = 0;
-    private int currentCount3 = 0;
-    private int allcurrentCount = 0;
+    public static int currentCount1 = 0;
+    public static int currentCount2 = 0;
+    public static int currentCount3 = 0;
+    public static int allcurrentCount = 0;
 
     private void IncrementCount1()
     {

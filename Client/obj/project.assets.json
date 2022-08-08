@@ -65,6 +65,19 @@
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Components.Authorization/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.5",
+          "Microsoft.AspNetCore.Components": "6.0.5"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/6.0.7": {
         "type": "package",
         "dependencies": {
@@ -1935,6 +1948,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.5",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
@@ -2010,6 +2024,19 @@
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Authorization/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.5",
+          "Microsoft.AspNetCore.Components": "6.0.5"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
         }
       },
       "Microsoft.AspNetCore.Components.Forms/6.0.7": {
@@ -3886,6 +3913,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.5",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
@@ -3990,6 +4018,21 @@
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "microsoft.aspnetcore.components.analyzers.6.0.7.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/6.0.5": {
+      "sha512": "VqyrGxH8Rb4DDFrqE56WSAIIm/X3RegGKYyq0nr4iUuRplE7sCe3Rn1gZGRynqnf3XDwL6ZlT1nC9CTd50Uhyw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.6.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Components.Forms/6.0.7": {
@@ -9034,6 +9077,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Landing.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 6.0.5",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.7",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.7",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
@@ -9050,11 +9094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj",
+      "projectUniqueName": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj",
       "projectName": "Landing.Client",
-      "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\Landing.Client.csproj",
+      "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj",
       "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koshe\\Documents\\Landing\\Client\\obj\\",
+      "outputPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9071,8 +9115,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj": {
-              "projectPath": "C:\\Users\\koshe\\Documents\\Landing\\Shared\\Landing.Shared.csproj"
+            "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
+              "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj"
             }
           }
         }
@@ -9087,6 +9131,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[6.0.5, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.7, )"

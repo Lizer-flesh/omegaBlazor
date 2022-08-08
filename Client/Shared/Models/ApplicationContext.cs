@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Landing.Client.Shared.Models;
+using Microsoft.EntityFrameworkCore;
 namespace Landing.Server.Models;
 
 public class ApplicationContext : DbContext
