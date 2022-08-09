@@ -6083,11 +6083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj",
       "projectName": "Landing.Shared",
-      "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj",
+      "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj",
       "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",

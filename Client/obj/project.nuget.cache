@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p/a/gokCLI1cQwSYr7gkbK4nxAXYsY7yIq0wx3clwyhuDbZTGqqJAy2AvuCuZy/5RJwNeIWmC4uSIJQ7TgJ1MQ==",
+  "dgSpecHash": "0IDV+bIBOyxDIeOLzddEUxbrcEt5vRLfalAO2Ir8YPIwanNyoITaN/PvN18IpKGrNTcS4vTZi3r/FBppxpwHiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj",
+  "projectFilePath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koshe\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\koshe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

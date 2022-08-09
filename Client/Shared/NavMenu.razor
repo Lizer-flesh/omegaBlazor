@@ -1,4 +1,6 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using Landing.Client.Pages
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Jet-Omega AR&VR</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -19,23 +21,27 @@
                 <span class="oi oi-home" aria-hidden="true"></span> Сотрудники
             </NavLink>
         </div>
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Продукты
+               <span class="oi oi-plus" aria-hidden="true"></span> Продукты
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Корзина
-            </NavLink>
+           <NavLink class="nav-link" href="fetchdata">
+               <span class="oi oi-list-rich" aria-hidden="true"></span> Корзина
+           </NavLink>
         </div>
     </nav>
 </div>
 
 @code {
+    bool forPages = Pages.Index.for_pages;
     private bool collapseNavMenu = true;
 
+    
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    
 
     private void ToggleNavMenu()
     {

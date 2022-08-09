@@ -22,6 +22,7 @@
             <input type="password" @bind="@password"/>
         </div>
             <h3><button id="EntranceBut" @onclick="click">Войти</button></h3>
+            <h4>@message</h4>
     </div>
 }
 else 
@@ -37,7 +38,8 @@ else
 
 
     public static bool for_index = true;
-    public static bool for_pages; 
+    public static bool for_pages;
+    private string message;
     public string login { get; set; }
     public string password { get; set; }
     public string res { get; set; }
@@ -56,7 +58,8 @@ else
 
         }else
         {
-             NavigationManager.NavigateTo("/");
+            message = "Неверный логин или пароль";
+            NavigationManager.NavigateTo("/");
         }
     }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Server\\Landing.Server.csproj": {}
+    "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj": {
+    "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj",
+        "projectUniqueName": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj",
         "projectName": "Landing.Client",
-        "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj",
+        "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj",
         "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\obj\\",
+        "outputPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
-                "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj"
+              "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
+                "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Server\\Landing.Server.csproj": {
+    "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Server\\Landing.Server.csproj",
+        "projectUniqueName": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.csproj",
         "projectName": "Landing.Server",
-        "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Server\\Landing.Server.csproj",
+        "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.csproj",
         "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Server\\obj\\",
+        "outputPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,11 +140,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj": {
-                "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Client\\Landing.Client.csproj"
+              "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj": {
+                "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj"
               },
-              "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
-                "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj"
+              "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
+                "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj"
               }
             }
           }
@@ -230,14 +230,14 @@
         }
       }
     },
-    "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
+    "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj",
         "projectName": "Landing.Shared",
-        "projectPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\Landing.Shared.csproj",
+        "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj",
         "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koshe\\Downloads\\omegaBlazor\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
