@@ -1,4 +1,5 @@
-﻿
+﻿using System.ComponentModel.DataAnnotations;
+
 namespace Landing
 {
     public class Users
@@ -9,9 +10,18 @@ namespace Landing
         public string login { get; set; }
         public string password { get; set; }
 
-        public override string ToString()
-        {
-            return $"Name={Name}; Surname={Surname}; Login={login}; Password={password}";
-        }
+        public List<Cart> Cart { get; set; }
+    }
+
+    public class Cart
+    {
+        [Key]
+        public int IdCart { get; set; }
+
+        public int Id { get; set; }
+        public string NameProduct { get; set; }
+        public int QuantityProduct { get; set; }
+
+        public List<Users>  Users{ get; set; }
     }
 }
