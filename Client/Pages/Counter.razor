@@ -1,5 +1,6 @@
 ﻿@page "/counter"
 @using Landing.Client.Pages
+@using Landing.Client.Shared.Models
 @inject NavigationManager NavigationManager
 
 @if (for_pages)
@@ -31,15 +32,18 @@
           <div class="null">
             <span>@currentCount2</span>
          </div>
-        <img class="card-img-top" src="/images/images.png">
-        <div class="card-body">
-          <h5 class="card-title">Виртуальная реальность</h5>
-          <h6>Цена: 100 000 руб.</h6>
-           <div>
-            <button class="but_card" @onclick="IncrementCount2">Добавить в корзину</button>
-            <button class="but_card" @onclick="Delete2">Удалить</button>
-          </div>
-        </div>
+         <div>
+             <img class="card-img-top" src="/images/images.png">
+                <div class="card-body">
+                    <h5 class="card-title">Виртуальная реальность</h5>
+                    <h6>Цена: 100 000 руб.</h6>
+                    <div>
+                        <button class="but_card" @onclick="IncrementCount2">Добавить в корзину</button>
+                        <button class="but_card" @onclick="Delete2">Удалить</button>
+                    </div>
+                </div>
+         </div>
+        
       </div>
       <div class="card">
           <div class="null">
@@ -66,14 +70,39 @@ else
 @code {
     bool for_pages = Pages.Index.for_pages;
 
+    protected static Cart carts = new Cart();
+
     void cart()
     {
         NavigationManager.NavigateTo("fetchdata");
     }
+
+    int idUser = Pages.Index.identUser;
     public static int currentCount1 = 0;
     public static int currentCount2 = 0;
     public static int currentCount3 = 0;
     public static int allcurrentCount = 0;
+
+    private void forCart()
+    {
+        carts.IdUser = idUser;
+
+            if(carts.NameProduct == "познавайка")
+            {
+                carts.QuantityProduct = currentCount1; 
+            }
+
+            if(carts.NameProduct == "виртуальная реальность")
+            {
+                carts.QuantityProduct = currentCount2;
+            }
+
+            if(carts.NameProduct == "systema")
+            {
+                carts.QuantityProduct = currentCount3;
+            }
+
+    }
 
     private void IncrementCount1()
     {

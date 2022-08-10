@@ -28,6 +28,7 @@
 else 
 {
     <h4>Вы уже авторизованы</h4>
+    <h4>@identUser</h4>
 }
 
 
@@ -40,10 +41,15 @@ else
     public static bool for_index = true;
     public static bool for_pages;
     private string message;
+    public static int identUser;
     public string login { get; set; }
     public string password { get; set; }
     public string res { get; set; }
+
+
     protected Users user = new Users();
+    protected static Cart carts = new Cart();
+
 
 
     async void click()
@@ -54,6 +60,7 @@ else
         {
             for_index = false;
             for_pages = true;
+            identUser = user.IdUser;
             NavigationManager.NavigateTo("counter");
 
         }else

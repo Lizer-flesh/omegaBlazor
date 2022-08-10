@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Landing.Server.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20220809144608_WithCart")]
-    partial class WithCart
+    [Migration("20220810083218_Cart")]
+    partial class Cart
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
