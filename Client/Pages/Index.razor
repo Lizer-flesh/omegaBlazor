@@ -1,7 +1,7 @@
 ﻿@page "/"
-@using Landing.Client.Shared.Models
+
 @inject HttpClient Http
-@using Landing.Server.Models
+
 @using Microsoft.AspNetCore.Components.Web
 @inject NavigationManager NavigationManager
 
@@ -47,20 +47,18 @@ else
     public string res { get; set; }
 
 
-    protected Users user = new Users();
-    protected static Cart carts = new Cart();
-
+ /*   protected Landing.User user = new Landing.User()*/
 
 
     async void click()
     {
         using var response = await Http.PostAsJsonAsync("Users",new string[]{login,password});
-        Users User = await response.Content.ReadFromJsonAsync<Users>();
+            Users User = await response.Content.ReadFromJsonAsync<Users>();
         if(User.login != null)
         {
             for_index = false;
             for_pages = true;
-            identUser = user.IdUser;
+            //identUser = user.IdUser;
             NavigationManager.NavigateTo("counter");
 
         }else

@@ -1,5 +1,4 @@
-﻿using Landing.Server.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Landing.Server.Controllers
 {
@@ -14,27 +13,34 @@ namespace Landing.Server.Controllers
         {
             _applicationContext = appContext;
         }
+        
+        
 
         [HttpGet]
-        public IEnumerable<Users> Get()
+        public async Task<IActionResult> GetAsync()
         {
-            return _applicationContext.Users;
+            _applicationContext.User.Add(new User()
+                { Name = "Mihail", Surname = "Skopin", login = "mopin", password = "1234" });
+            _applicationContext.User.Add(new User()
+                { Name = "Sergey", Surname = "Davydov", login = "davs", password = "5678" });
+            _applicationContext.SaveChanges();
+            return Ok();
         }
 
 
 
-        [HttpPost]
-        public Users Post(string[] arr)
-        {
-            if (_applicationContext.Users.Any(x => x.login == arr[0] && x.password == arr[1]))
-            {
-                return _applicationContext.Users.Where(x => x.login == arr[0] && x.password == arr[1]).FirstOrDefault();
-            }
-            else
-            {
-                return new Users() {login =null};
-            }
-        }
+        //[HttpPost]
+        //public Users Post(string[] arr)
+        //{
+        //    if (_applicationContext.User.Any(x => x.login == arr[0] && x.password == arr[1]))
+        //    {
+        //       return _applicationContext.User.Where(x => x.login == arr[0] && x.password == arr[1]).FirstOrDefault();
+        //    }
+        //    else
+        //    {
+        //        return new Users() {login =null};
+        //    }
+        //}
     }
 }
 

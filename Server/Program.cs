@@ -1,7 +1,7 @@
 using Landing.Server;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
-using Landing.Server.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
 ﻿@page "/counter"
 @using Landing.Client.Pages
-@using Landing.Client.Shared.Models
+
 @inject NavigationManager NavigationManager
 
 @if (for_pages)
@@ -70,7 +70,7 @@ else
 @code {
     bool for_pages = Pages.Index.for_pages;
 
-    protected static Cart carts = new Cart();
+    // protected static Cart carts = new Cart();
 
     void cart()
     {
@@ -83,26 +83,7 @@ else
     public static int currentCount3 = 0;
     public static int allcurrentCount = 0;
 
-    private void forCart()
-    {
-        carts.IdUser = idUser;
-
-            if(carts.NameProduct == "познавайка")
-            {
-                carts.QuantityProduct = currentCount1; 
-            }
-
-            if(carts.NameProduct == "виртуальная реальность")
-            {
-                carts.QuantityProduct = currentCount2;
-            }
-
-            if(carts.NameProduct == "systema")
-            {
-                carts.QuantityProduct = currentCount3;
-            }
-
-    }
+   
 
     private void IncrementCount1()
     {

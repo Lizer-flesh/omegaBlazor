@@ -32,4 +32,8 @@
     <ProjectReference Include="..\Shared\Landing.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Shared\Models\" />
+  </ItemGroup>
+
 </Project>

@@ -27,7 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\Landing.Client.csproj" />
     <ProjectReference Include="..\Shared\Landing.Shared.csproj" />
   </ItemGroup>
 
