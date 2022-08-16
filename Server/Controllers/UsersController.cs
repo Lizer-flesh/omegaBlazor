@@ -1,5 +1,7 @@
 ﻿using Landing.Server.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Index = Microsoft.EntityFrameworkCore.Metadata.Internal.Index;
 
 namespace Landing.Server.Controllers
 {
@@ -16,23 +18,25 @@ namespace Landing.Server.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Users> Get()
+        public IEnumerable<User> Get()
         {
-            return _applicationContext.Users;
+            
+            //var queryable = _applicationContext.Cart.Where(e=>e.UserId == ).Select(e => e.ProductName);
+            return _applicationContext.User;
         }
 
 
 
         [HttpPost]
-        public Users Post(string[] arr)
+        public User Post([FromQuery] string login, [FromQuery] string password)
         {
-            if (_applicationContext.Users.Any(x => x.login == arr[0] && x.password == arr[1]))
+            if (_applicationContext.User.Any(x => x.login == login && x.password == password ))
             {
-                return _applicationContext.Users.Where(x => x.login == arr[0] && x.password == arr[1]).FirstOrDefault();
+                return _applicationContext.User.Where(x => x.login == login && x.password == password).FirstOrDefault();
             }
             else
             {
-                return new Users() {login =null};
+                return new User() {login =null};
             }
         }
     }

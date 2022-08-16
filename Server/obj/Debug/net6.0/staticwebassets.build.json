@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xrmtF2TxrJt3FwnKtZciWdsoPjbk4qAWXjkv6pxbhTM=",
+  "Hash": "uIsQGx9MKjhEOM4+k4W6h893cjjvLg2UGNuMG3rYsNc=",
   "Source": "Landing.Server",
   "BasePath": "_content/Landing.Server",
   "Mode": "Default",
@@ -148,23 +148,6 @@
       "OriginalItemSpec": "C:\\Users\\koshe\\.nuget\\packages\\humanizer.core\\2.8.26\\lib\\netstandard2.0\\Humanizer.dll"
     },
     {
-      "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "Landing.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\koshe\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.7\\runtimes\\browser-wasm\\native\\icudt.dat"
-    },
-    {
       "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "Landing.Client",
       "SourceType": "Project",
@@ -214,6 +197,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\koshe\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.7\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "Landing.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\koshe\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.7\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Landing.Client.dll",
@@ -7356,6 +7356,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Landing.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Landing.Client",
       "SourceType": "Project",
@@ -7456,23 +7473,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "Landing.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

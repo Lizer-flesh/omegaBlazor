@@ -3661,6 +3661,29 @@
           "bin/placeholder/Landing.Client.dll": {}
         }
       },
+      "Landing.Server.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Landing.Server.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Landing.Server.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Landing.Server.BLL.dll": {}
+        }
+      },
+      "Landing.Server.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Landing.Server.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Landing.Server.DAL.dll": {}
+        }
+      },
       "Landing.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -11068,6 +11091,16 @@
       "path": "../Client/Landing.Client.csproj",
       "msbuildProject": "../Client/Landing.Client.csproj"
     },
+    "Landing.Server.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Landing.Server.BLL/Landing.Server.BLL.csproj",
+      "msbuildProject": "../Landing.Server.BLL/Landing.Server.BLL.csproj"
+    },
+    "Landing.Server.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Landing.Server.DAL/Landing.Server.DAL.csproj",
+      "msbuildProject": "../Landing.Server.DAL/Landing.Server.DAL.csproj"
+    },
     "Landing.Shared/1.0.0": {
       "type": "project",
       "path": "../Shared/Landing.Shared.csproj",
@@ -11077,6 +11110,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Landing.Client >= 1.0.0",
+      "Landing.Server.BLL >= 1.0.0",
       "Landing.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.Authorization >= 6.0.5",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.7",
@@ -11097,9 +11131,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.csproj",
-      "projectName": "Landing.Server",
-      "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.csproj",
+      "projectUniqueName": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.Api.csproj",
+      "projectName": "Landing.Server.Api",
+      "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\Landing.Server.Api.csproj",
       "packagesPath": "C:\\Users\\koshe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Server\\obj\\",
       "projectStyle": "PackageReference",
@@ -11120,6 +11154,9 @@
           "projectReferences": {
             "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj": {
               "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Client\\Landing.Client.csproj"
+            },
+            "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Landing.Server.BLL\\Landing.Server.BLL.csproj": {
+              "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Landing.Server.BLL\\Landing.Server.BLL.csproj"
             },
             "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj": {
               "projectPath": "C:\\Users\\koshe\\Desktop\\omegaBlazor\\Shared\\Landing.Shared.csproj"

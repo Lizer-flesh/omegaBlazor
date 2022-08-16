@@ -21,45 +21,32 @@ namespace Landing.Server.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("CartUsers", b =>
-                {
-                    b.Property<int>("CartIdCart")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("UsersId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("CartIdCart", "UsersId");
-
-                    b.HasIndex("UsersId");
-
-                    b.ToTable("CartUsers");
-                });
-
             modelBuilder.Entity("Landing.Cart", b =>
                 {
-                    b.Property<int>("IdCart")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdCart"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Id")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("NameProduct")
+                    b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("QuantityProduct")
+                    b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
-                    b.HasKey("IdCart");
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Cart");
                 });
 
-            modelBuilder.Entity("Landing.Users", b =>
+            modelBuilder.Entity("Landing.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -85,22 +72,23 @@ namespace Landing.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("User");
                 });
 
-            modelBuilder.Entity("CartUsers", b =>
+            modelBuilder.Entity("Landing.Cart", b =>
                 {
-                    b.HasOne("Landing.Cart", null)
-                        .WithMany()
-                        .HasForeignKey("CartIdCart")
+                    b.HasOne("Landing.User", "User")
+                        .WithMany("Carts")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Landing.Users", null)
-                        .WithMany()
-                        .HasForeignKey("UsersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Landing.User", b =>
+                {
+                    b.Navigation("Carts");
                 });
 #pragma warning restore 612, 618
         }
