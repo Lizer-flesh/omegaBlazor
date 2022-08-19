@@ -209,14 +209,14 @@
       "netstandard.dll": "sha256-CvlfDmNgFRYT7l\/xZKu91FlbTFyLG\/5cH7YX63k9ghE=",
       "System.Private.CoreLib.dll": "sha256-aF4imeOpA59D6F5qCLabzkeY7MvRZzNYzavhB\/bdxvM=",
       "Landing.Shared.dll": "sha256-c8tNOZIwdhV2LxvXTxTNf0RxLHlTgxxY100tR89fkfc=",
-      "Landing.Client.dll": "sha256-ibbIa+DUaUpFSp96RzGiXluNRSqs6FXKIV9CJKG4cHE="
+      "Landing.Client.dll": "sha256-XblwZ+ltqJ9hI3Bsks2rnAOBfj10ysHgRQHnL\/LBT88="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Landing.Shared.pdb": "sha256-ZrFLz9\/TLVq0s42hAk7bPlKZwnlGLmW1gjPWfz53guw=",
-      "Landing.Client.pdb": "sha256-vyXzZqhFHgcVCupcHZXjmGtDE62ouALo17MNUE1ne0M="
+      "Landing.Client.pdb": "sha256-pVk0pceZ56Ky8K14ewst7wH4J2iTfnhliiuHFILr0gE="
     },
     "runtime": {
       "dotnet.6.0.7.8pl00mtwg2.js": "sha256-pvJcJ6jtDSfxgXm03QYRTm4aAi9PSzMSJODReHtvASY=",

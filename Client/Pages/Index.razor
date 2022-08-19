@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject HttpClient Http
+@using Landing.Shared.Entities
 @inject NavigationManager NavigationManager
 
 @if (for_index)
@@ -41,8 +42,8 @@ else
     async void click()
     {
         using var response = await Http.PostAsJsonAsync($"Users/?login={login}&password={password}", "");
-        var readAsStringAsync = await response.Content.ReadAsStringAsync();
-        
+        //var readAsStringAsync = await response.Content.ReadAsStringAsync();
+
         User User = await response.Content.ReadFromJsonAsync<User>();
         if(User.login != null)
         {

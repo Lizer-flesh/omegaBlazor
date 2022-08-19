@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "uIsQGx9MKjhEOM4+k4W6h893cjjvLg2UGNuMG3rYsNc=",
-  "Source": "Landing.Server",
-  "BasePath": "_content/Landing.Server",
+  "Hash": "tSoDzPSAlceE3DJRv/3k4n/luLUfcTjD3xMln6p42qk=",
+  "Source": "Landing.Server.Api",
+  "BasePath": "_content/Landing.Server.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [

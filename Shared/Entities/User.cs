@@ -1,5 +1,5 @@
 ﻿
-namespace Landing
+namespace Landing.Shared.Entities
 {
     public class User
     {

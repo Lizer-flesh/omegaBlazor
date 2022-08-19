@@ -10,4 +10,8 @@
       <ProjectReference Include="..\Landing.Server.DAL\Landing.Server.DAL.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    </ItemGroup>
+
 </Project>

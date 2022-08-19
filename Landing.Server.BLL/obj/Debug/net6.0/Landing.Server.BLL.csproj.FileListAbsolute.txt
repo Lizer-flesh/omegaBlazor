@@ -1,0 +1,17 @@
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Server.BLL.deps.json
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Server.BLL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Server.BLL.pdb
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Server.DAL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Server.DAL.pdb
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.csproj.AssemblyReference.cache
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.AssemblyInfoInputs.cache
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.AssemblyInfo.cs
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.csproj.CopyComplete
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\refint\Landing.Server.BLL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\Landing.Server.BLL.pdb
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\obj\Debug\net6.0\ref\Landing.Server.BLL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Shared.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.BLL\bin\Debug\net6.0\Landing.Shared.pdb

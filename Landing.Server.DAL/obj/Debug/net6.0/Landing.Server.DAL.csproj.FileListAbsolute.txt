@@ -1,0 +1,15 @@
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\bin\Debug\net6.0\Landing.Server.DAL.deps.json
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\bin\Debug\net6.0\Landing.Server.DAL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\bin\Debug\net6.0\Landing.Server.DAL.pdb
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.csproj.AssemblyReference.cache
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.AssemblyInfoInputs.cache
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.AssemblyInfo.cs
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.csproj.CoreCompileInputs.cache
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\refint\Landing.Server.DAL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.pdb
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\ref\Landing.Server.DAL.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\bin\Debug\net6.0\Landing.Shared.dll
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\bin\Debug\net6.0\Landing.Shared.pdb
+C:\Users\koshe\Desktop\omegaBlazor\Landing.Server.DAL\obj\Debug\net6.0\Landing.Server.DAL.csproj.CopyComplete

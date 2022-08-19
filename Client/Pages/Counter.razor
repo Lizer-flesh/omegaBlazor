@@ -1,4 +1,5 @@
 ﻿@page "/counter"
+@using Landing.Shared.Entities
 @inject NavigationManager NavigationManager
 
 @if (for_pages)
@@ -84,10 +85,11 @@ else
     public static void forCart()
     {
         carts.UserId = idUser;
+        
         var queryable = carts.ProductName.Where(e=>e.Equals(carts.UserId == idUser));
         foreach (var q in queryable)
         {
-            Console.WriteLine();
+            Console.WriteLine(q);
         }
     }
 

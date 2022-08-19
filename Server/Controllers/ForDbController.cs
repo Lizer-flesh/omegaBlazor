@@ -1,7 +1,5 @@
-﻿using Landing.Server.Models;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
 
 namespace Landing.Server
 {

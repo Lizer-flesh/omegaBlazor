@@ -1,6 +1,8 @@
-﻿using Landing.Server.Models;
+﻿using Landing.Server.DAL.Core;
 using Microsoft.AspNetCore.Mvc;
+using Landing.Shared.Entities;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ApplicationContext = Landing.Server.DAL.Core.ApplicationContext;
 using Index = Microsoft.EntityFrameworkCore.Metadata.Internal.Index;
 
 namespace Landing.Server.Controllers
@@ -9,7 +11,7 @@ namespace Landing.Server.Controllers
     [Route("[controller]")]
     public class UsersController : Controller
     {
-
+        
         private readonly ApplicationContext _applicationContext;
 
         public UsersController(ApplicationContext appContext)
@@ -17,13 +19,13 @@ namespace Landing.Server.Controllers
             _applicationContext = appContext;
         }
 
-        [HttpGet]
-        public IEnumerable<User> Get()
-        {
-            
-            //var queryable = _applicationContext.Cart.Where(e=>e.UserId == ).Select(e => e.ProductName);
-            return _applicationContext.User;
-        }
+        // [HttpGet]
+        // public IEnumerable<User> Get()
+        // {
+        //     
+        //    // var queryable = _applicationContext.Cart.Where(e=>e.UserId == ).Select(e => e.ProductName);
+        //     return _applicationContext.User;
+        // }
 
 
 

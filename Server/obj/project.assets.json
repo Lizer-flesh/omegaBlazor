@@ -3665,7 +3665,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Landing.Server.DAL": "1.0.0"
+          "Landing.Server.DAL": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7"
         },
         "compile": {
           "bin/placeholder/Landing.Server.BLL.dll": {}
@@ -3677,6 +3678,10 @@
       "Landing.Server.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Landing.Shared": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7"
+        },
         "compile": {
           "bin/placeholder/Landing.Server.DAL.dll": {}
         },
