@@ -1,6 +1,6 @@
 namespace Landing.Server.BLL.DTO;
 
-public class GetCartDTO
+public class GetCartDTO: BaseCartDTO
 {
     public int Id { get; set; }
 }

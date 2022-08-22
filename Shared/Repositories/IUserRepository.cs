@@ -1,6 +1,6 @@
 namespace Landing.Shared.Repositories;
 
-public interface ICartRepositories
+public interface IUserRepository
 {
     
 }

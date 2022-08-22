@@ -21,7 +21,7 @@ public class CartController : ControllerBase
     {
         if (ModelState.IsValid)
         {
-            var cartDTO = await _cartService.AddCartAsync(AddCartDTO);
+            var cartDTO = await _cartService.AddCartAsync(addCartDto);
             return Ok(cartDTO);
         }
 
@@ -30,6 +30,30 @@ public class CartController : ControllerBase
             .Select(e => e.ErrorMessage)
             .ToList();
         return BadRequest(validationErrors);
+    }
 
+    [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<ActionResult<GetCartDTO>> GetById(int id)
+    {
+        var getCartDto = await _cartService.GetCartAsync(id);
+        return Ok(getCartDto);
+    }
+
+    [HttpDelete]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<ActionResult<RemoveCartDTO>> RemoveCart(RemoveCartDTO removeCartDto)
+    {
+        if (ModelState.IsValid)
+        {
+            var result = await _cartService.RemoveCartAsync(removeCartDto);
+            return Ok(result);
+        }
+
+        var validationErrors = ModelState.Values.Where(e => e.Errors.Count > 0)
+            .SelectMany(e => e.Errors)
+            .Select(e => e.ErrorMessage)
+            .ToList();
+        return BadRequest(validationErrors);
     }
 }
