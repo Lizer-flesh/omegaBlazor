@@ -18,7 +18,8 @@
             <input type="password" @bind="@password"/>
         </div>
             <h3><button id="EntranceBut" @onclick="click">Войти</button></h3>
-            <h4>@message</h4>
+        <h4>@message</h4>
+        
     </div>
 }
 else
@@ -41,6 +42,7 @@ else
 
     async void click()
     {
+        
         using var response = await Http.PostAsJsonAsync($"Users/?login={login}&password={password}", "");
         //var readAsStringAsync = await response.Content.ReadAsStringAsync();
 
@@ -50,6 +52,13 @@ else
             for_index = false;
             for_pages = true;
             identUser = User.Id;
+            
+            using var responseId = await Http.GetAsync($"Cart/api/Cart/GetById/?identUser={identUser}");
+            IQueryable? Cart = await response.Content.ReadFromJsonAsync<IQueryable>();
+            if (Cart != null)
+            {
+                Console.WriteLine("goog");
+            }
             NavigationManager.NavigateTo("counter");
         }
         else

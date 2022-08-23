@@ -56,4 +56,21 @@ public class CartController : ControllerBase
             .ToList();
         return BadRequest(validationErrors);
     }
+
+    [HttpPut]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<ActionResult<UpdateCartDTO>> UpdateCart(UpdateCartDTO updateCartDto)
+    {
+        if (ModelState.IsValid)
+        {
+            var result = await _cartService.UpdateCartAsync(updateCartDto);
+            return Ok(result);
+        }
+
+        var validationErrors = ModelState.Values.Where(e => e.Errors.Count > 0)
+            .SelectMany(e => e.Errors)
+            .Select(e => e.ErrorMessage)
+            .ToList();
+        return BadRequest(validationErrors);
+    }
 }

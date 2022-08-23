@@ -5,6 +5,9 @@
 @if (for_pages)
 {
     <PageTitle>Products</PageTitle>
+    
+    <h3>@idUser</h3>
+    <h3></h3>
 
     <h1>Товары<h3><button class="button_cart" @onclick="cart">Корзина</button></h3></h1>  
 
@@ -86,11 +89,11 @@ else
     {
         carts.UserId = idUser;
         
-        var queryable = carts.ProductName.Where(e=>e.Equals(carts.UserId == idUser));
-        foreach (var q in queryable)
-        {
-            Console.WriteLine(q);
-        }
+        //var queryable = carts.ProductName.Where(e=>e.Equals(carts.UserId == idUser));
+        // foreach (var q in queryable)
+        // {
+        //     Console.WriteLine(q);
+        // }
     }
 
     private void IncrementCount1()

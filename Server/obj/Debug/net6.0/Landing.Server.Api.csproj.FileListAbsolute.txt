@@ -293,3 +293,4 @@ C:\Users\koshe\Desktop\omegaBlazor\Server\obj\Debug\net6.0\refint\Landing.Server
 C:\Users\koshe\Desktop\omegaBlazor\Server\obj\Debug\net6.0\Landing.Server.Api.pdb
 C:\Users\koshe\Desktop\omegaBlazor\Server\obj\Debug\net6.0\Landing.Server.Api.genruntimeconfig.cache
 C:\Users\koshe\Desktop\omegaBlazor\Server\obj\Debug\net6.0\ref\Landing.Server.Api.dll
+C:\Users\koshe\Desktop\omegaBlazor\Server\bin\Debug\net6.0\AutoMapper.dll
